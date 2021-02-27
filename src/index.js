@@ -5,6 +5,7 @@ import toBoolean from './lib/toBoolean';
 import equals from './lib/equals';
 import contains from './lib/contains';
 import matches from './lib/matches';
+import validateAll from './lib/util/validateAll';
 
 import isEmail from './lib/isEmail';
 import isURL from './lib/isURL';
@@ -215,6 +216,7 @@ const validator = {
   isSlug,
   isTaxID,
   isDate,
+  validateAll,
 };
 
 export default validator;
